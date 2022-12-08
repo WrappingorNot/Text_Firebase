@@ -12,7 +12,7 @@ class BoardListActivity : AppCompatActivity() {
 
     private lateinit var auth : FirebaseAuth
 
-    var write_button = findViewById<Button>(R.id.form_button)
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,14 +22,14 @@ class BoardListActivity : AppCompatActivity() {
 
 
 
-        write_button.setOnClickListener{
-
-
-            val intent = Intent(this, BoardInputActivity::class.java)
-            intent.putExtra("uid", auth.currentUser?.uid)
-            startActivity(intent)
-
-        }
+//        write_button.setOnClickListener{
+//
+//
+//            val intent = Intent(this, BoardInputActivity::class.java)
+//            intent.putExtra("uid", auth.currentUser?.uid)
+//            startActivity(intent)
+//
+//        }
 
 
     }
