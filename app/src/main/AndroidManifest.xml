@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Text_Firebase">
         <activity
+            android:name=".BoardInputActivity"
+            android:exported="false" />
+        <activity
             android:name=".BoardListActivity"
             android:exported="false" />
         <activity
