@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
         joinButton.setOnClickListener(){
 
         auth.createUserWithEmailAndPassword(email_form.text.toString(), pass_form.text.toString())
