@@ -25,10 +25,6 @@ class BoardListActivity : AppCompatActivity() {
 
         setContentView(view)
 
-
-
-
-
         val intent = Intent(this, BoardInputActivity::class.java)
         intent.putExtra("uid", auth.currentUser?.uid)
         startActivity(intent)
