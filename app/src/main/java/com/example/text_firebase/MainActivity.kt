@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+
+
         joinButton.setOnClickListener(){
 
         auth.createUserWithEmailAndPassword(email_form.text.toString(), pass_form.text.toString())
