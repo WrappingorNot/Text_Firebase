@@ -25,6 +25,8 @@ class BoardInputActivity : AppCompatActivity() {
 
             uid = intent.getStringExtra("uid")
 
+            print("dd0")
+
         }
 
 
