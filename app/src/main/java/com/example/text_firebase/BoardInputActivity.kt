@@ -28,7 +28,7 @@ class BoardInputActivity : AppCompatActivity() {
             print("dd0")
 
         }
-
+//
 
 
         form_button.setOnClickListener{
